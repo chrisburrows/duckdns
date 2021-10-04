@@ -10,3 +10,5 @@ The script also maintains four sensors for Home Assistant via MQTT:
 - a sensor with the time the last problem occurred
 
 Home Assistant auto-discovery is supported for these sensors.
+
+The script can be configured by hacking the defaults, or using environment variables. The environment variables approach lends itself well to setting up the script as a systemd service on Linux and importing the configuration variables.
