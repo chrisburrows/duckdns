@@ -3,8 +3,6 @@
 # coding=utf-8
 # DuckDNS updates with MQTT status reporting
 
-# Press ⌃R to execute it or replace it with your code.
-
 import os
 import socket
 import requests
